@@ -101,6 +101,7 @@ img {
 }
 
 .nav-contact-item {
+  display: flex;
   text-decoration: none;
   font-weight: 500;
   text-align: center;
@@ -207,45 +208,32 @@ img {
   width: 270px;
 }
 
-.features-list-item::before {
-  display: inline-block;
+.features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-
-  content: '';
 
   height: 120px;
   width: 270px;
   background-color: #f5f4fa;
 }
 
-.antenna::before {
-  content: '';
+.antenna {
+  width: 70px;
+  height: 70px;
 
-  background-image: url(../images/svg/antenna.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  fill: #212121;
+}
+.clock {
+  fill: #212121;
 }
 
-.clock::before {
-  content: '';
-
-  background-image: url(../images/svg/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.diagram {
+  fill: #2196f3;
 }
-.diagram::before {
-  content: '';
-
-  background-image: url(../images/svg/diagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.astronaut::before {
-  content: '';
-
-  background-image: url(../images/svg/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.astronaut {
+  fill: #2196f3;
 }
 .features-list-item:nth-child(-n + 3) {
   margin-right: 30px;
@@ -344,7 +332,7 @@ img {
   margin-top: 16px;
 }
 .link-social {
-  display: inline-block;
+  display: block;
   width: 44px;
   height: 44px;
   background-color: var(--white-color);
