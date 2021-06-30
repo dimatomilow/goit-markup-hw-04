@@ -380,7 +380,8 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.company-icon:hover {
+.company-icon:hover,
+.company-icon:focus {
   border: 1px solid var(--accnt-color);
 }
 
@@ -471,6 +472,41 @@ img {
 .contact-tell:hover,
 .contact-tell:focus {
   color: var(--accnt-color);
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+.footer-social-list {
+  display: flex;
+}
+
+.icon-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  color: var(--white-color);
+}
+
+.footer-social-ikon {
+  display: inline-block;
+
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+.footer-social-ikon:hover,
+.footer-social-ikon:focus {
+  background-color: var(--accnt-color);
+}
+
+.footer-social {
+  width: 44px;
+  height: 44px;
+  fill: var(--white-color);
 }
 
 /* Portfolio
