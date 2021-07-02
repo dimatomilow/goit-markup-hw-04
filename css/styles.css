@@ -119,8 +119,8 @@ img {
   margin-right: 10px;
   fill: #757575;
 }
-.icon-email:hover,
-.icon-email:focus {
+.nav-contact-item:hover .icon-email,
+.nav-contact-item:focus .icon-email {
   fill: var(--accnt-color);
 }
 
@@ -132,8 +132,8 @@ img {
   margin-right: 10px;
   fill: #757575;
 }
-.icon-tell:hover,
-.icon-tell:focus {
+.nav-contact-item:hover .icon-tell,
+.nav-contact-item:focus .icon-tell {
   fill: var(--accnt-color);
 }
 /* Features
@@ -349,8 +349,8 @@ img {
   fill: #afb1b8;
 }
 
-.icon-social:hover,
-.icon-social:focus {
+.link-social:hover .icon-social,
+.link-social:focus .icon-social {
   fill: var(--white-color);
 }
 
@@ -395,8 +395,8 @@ img {
   margin: 16px 32px;
   fill: #afb1b8;
 }
-.regular-customers-icon:hover,
-.regular-customers-icon:focus {
+.company-icon:hover .regular-customers-icon,
+.company-icon:focus .regular-customers-icon {
   fill: var(--accnt-color);
 }
 
@@ -420,7 +420,11 @@ img {
 
   color: var(--white-color);
 }
-
+.container-foter {
+  display: flex;
+}
+.container-adress {
+}
 .address {
   font-style: inherit;
 }
@@ -457,8 +461,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-mai:hover,
-.contact-mai:focus {
+.contact-mail:hover,
+.contact-mail:focus {
   color: var(--accnt-color);
 }
 
@@ -475,8 +479,7 @@ img {
 }
 
 .footer-icon {
-  display: flex;
-  justify-content: center;
+  margin-left: 70px;
 }
 .footer-social-list {
   display: flex;
@@ -484,6 +487,8 @@ img {
 
 .icon-title {
   margin: 0;
+  margin-bottom: 20px;
+
   text-transform: uppercase;
   font-size: 14px;
 
