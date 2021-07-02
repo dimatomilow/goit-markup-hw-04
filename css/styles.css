@@ -484,7 +484,12 @@ img {
 .footer-social-list {
   display: flex;
 }
-
+.social-list {
+  margin-right: 10px;
+}
+.social-list:last-child {
+  margin-right: 0;
+}
 .icon-title {
   margin: 0;
   margin-bottom: 20px;
