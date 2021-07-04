@@ -305,6 +305,8 @@ img {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-title {
@@ -327,7 +329,8 @@ img {
 
 .team-text {
   font-size: 16px;
-  margin: 10px 0 0;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .list-icon-social {
@@ -341,7 +344,6 @@ img {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 16px;
 }
 .link-social {
   display: block;
@@ -351,7 +353,8 @@ img {
   border-radius: 50px;
 }
 
-.link-social:hover {
+.link-social:hover,
+.link-social:focus {
   background-color: var(--accnt-color);
 }
 
@@ -373,6 +376,8 @@ img {
   font-size: 36px;
   color: var(--title-text-color);
   text-align: center;
+  margin: 0%;
+  margin-bottom: 50px;
 }
 
 .regular-customers {
@@ -591,8 +596,8 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 }
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
